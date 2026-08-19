@@ -85,6 +85,8 @@ Found a WCAG practice this checklist misses, or discovery hints that are
 wrong/incomplete for a common stack? PRs to `categories.md` welcome — keep
 it free of any hardcoded, project-specific paths so it stays portable.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for ground rules before opening a PR.
+
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
