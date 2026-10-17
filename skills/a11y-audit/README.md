@@ -64,12 +64,21 @@ afterward, in a separate step.
 
 ## Categories (see `categories.md` for full detail)
 
-30 categories, `A11Y-01` through `A11Y-30`, covering WCAG 2.2 Level A and
-AA — from foundational structure (landmarks, headings, labels) through the
-newer WCAG 2.2 additions (redundant entry, accessible authentication,
-dragging movements, focus not obscured, target size). `A11Y-30` (browser/
-assistive-technology compatibility) is always reported `NOT_APPLICABLE` to
-this skill's own methodology, by design — see `categories.md` for why.
+30 categories, `A11Y-01` through `A11Y-30`, covering most of WCAG 2.2 Level
+A and AA — from foundational structure (landmarks, headings, labels)
+through the newer WCAG 2.2 additions (redundant entry, accessible
+authentication, dragging movements, focus not obscured, target size).
+`A11Y-30` (browser/assistive-technology compatibility) is always reported
+`NOT_APPLICABLE` to this skill's own methodology, by design — see
+`categories.md` for why.
+
+This is not a 1:1 mapping of every AA success criterion: some are folded
+into a broader category (e.g. A11Y-04 checks page language but not in-page
+language changes, SC 3.1.2; A11Y-08 checks error identification/status
+messages but not error-correction suggestions, SC 3.3.3) and a few aren't
+covered yet (e.g. SC 1.4.13, content on hover/focus). Treat an audit pass
+here as "no gap found in the checked categories," not a certification of
+full WCAG 2.2 AA conformance.
 
 Run `/a11y-audit` with no arguments on a fresh project to have it discover
 and populate every category from scratch.
